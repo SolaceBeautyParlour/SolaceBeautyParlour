@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    margin-top: -15px;
+    background:"D:\Intro to web Chitkara\Project\RedStore_Img\images\logo.png" no-repeat left;
+    background-size: 65%;
+    background-color: #fdfdfdfd;
+    overflow: hidden;
+    padding: 100px;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.border{
+    height: 4px;
+    width: 100px;
+    background-color: rgb(245, 60,28);
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+button{
+    border: none;
+    padding: 8px 15px;
+    background-color: orangered;
+    color: #fff;
+}
+
+button:hover{
+    text-decoration: underline;
+}
